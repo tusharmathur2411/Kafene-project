@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Kafene | Products</title>
+    
+    <link rel="stylesheet" href="/products.css">
+    <link rel="stylesheet" href="/nav.css">
+    
+    <script src="/nav.js" defer></script>
+    <script src="/products.js" defer></script>
+  </head>
+  <body>
+    <div id="nav"></div>
+    <div class="body">
+      <div class="filter">
+        <h1>Products</h1>
+        <h3>Filters</h3>
+        <div><b>Count: </b><span id="list-count"></span></div>
+        <div><input class="status" type="checkbox" value="Expired" checked/>Expired</div>
+        <div><input class="status" type="checkbox" value="Low Stock" checked/>Low Stock</div>
+      </div>
+      <div id="main"></div>
+    </div>
+  </body>
+</html>

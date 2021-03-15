@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Kafene | Orders</title>
+    
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/nav.css">
+    
+    <script src="/nav.js" defer></script>
+    <script src="/index.js" defer></script>
+  </head>
+  <body>
+    <div id="nav"></div>
+    <div class="body">
+      <div class="filter">
+        <h1>Orders</h1>
+        <h3>Filters</h3>
+        <div><b>Count: </b><span id="list-count"></span></div>
+        <div><input class="status" type="checkbox" value="New" checked/>New</div>
+        <div><input class="status" type="checkbox" value="Packed" checked/>Packed</div>
+        <div><input class="status" type="checkbox" value="InTransit" checked/>InTransit</div>
+        <div><input class="status" type="checkbox" value="Delivered" checked/>Delivered</div>
+      </div>
+      <div id="main"></div>
+    </div>
+  </body>
+</html>

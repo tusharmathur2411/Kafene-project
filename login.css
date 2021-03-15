@@ -1,0 +1,44 @@
+h1 {
+  width: 80%;
+  margin-bottom: 0;
+}
+
+input {
+  border-width: 0 0 2px 0;
+  color: grey;
+  width: 80%;  
+  height: 40px;
+  font-size: 15px;
+  font-weight: 400;
+  outline: none;
+}
+
+#login {
+  display: flex;
+  width: 40%;
+  margin: 20vh auto;
+  background-color: white;
+  box-shadow: 0 2px 5px #ccc;
+  height: 50vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+}
+
+#error {
+  display: none;
+  color: red;
+}
+
+#submit {
+  width: 80%;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #20b883;
+  color: white;
+  font-size: 15px;
+  font-weight: 800;
+  border: none;
+  outline: none;
+}
